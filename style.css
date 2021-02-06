@@ -1,22 +1,5 @@
-body, html
-{
-    background-color: lightpink;
-}
-
-h1, h2, h3, h4, h5, h6
-{
-    color: darkslategray;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-p
-{
-    color: darkslategray;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-.main
-{
-    padding-left: 10vw;
-    padding-top: 35vw;
+body {
+    /*background-image: linear-gradient( 45deg, #FFD89B, #19547B);*/
+    /*background-image: linear-gradient( 135deg, #FDEB71 10%, #F8D800 100%);*/
+    /*background-image: linear-gradient( 135deg, #81FBB8 10%, #28C76F 100%);*/
 }
