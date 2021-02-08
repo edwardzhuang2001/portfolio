@@ -1,5 +1,7 @@
 body {
-    /*background-image: linear-gradient( 45deg, #FFD89B, #19547B);*/
-    /*background-image: linear-gradient( 135deg, #FDEB71 10%, #F8D800 100%);*/
-    /*background-image: linear-gradient( 135deg, #81FBB8 10%, #28C76F 100%);*/
+    margin: 0px;
+    padding: 0px;
+    /* background: linear-gradient(45deg, #ffff97, #ffd5ed); */
+    background: linear-gradient(45deg, LightGoldenrodYellow, LightCyan);
+    color: black;
 }

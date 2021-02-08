@@ -10,13 +10,20 @@
     <main>
         <section class="main">
             <h1>Hi, I'm Edward.</h1>
-            <h6>Pleased to meet you!</h6>
+            <h3>Pleased to meet you!</h3>
+            <!-- insert icons for LinkedIn, GitHub, Resume, Email -->
+            <ul>
+                <a href=""></a>
+                <a href=""></a>
+                <a href=""></a>
+                <a href="resume.pdf" target="_blank"><button>Resume</button></a>
+            </ul>
         </section>
 
         <section class="about">
             <h2>About Me</h2>
             <p>Hi, I'm Edward Zhuang, and I'm currently a second-year Software Engineering student at McMaster University who expects to graduate in Apr. 2023.</p>
-            <p>I'm a self-motivated person</p>
+            <p>I'm a self-motivated learner, </p>
         </section>
 
         <section class="skills">
@@ -34,6 +41,20 @@
 
         <section class="contact">
             <h2>Contact Me</h2>
+            <form>
+                <div>
+                    <label for="name">Name: </label>
+                    <input type="text" id="name" placeholder="Name">
+                </div>
+                <div>
+                    <label for="email">Email address: </label>
+                    <input type="email" id="email" placeholder="Email">
+                </div>
+                <div>
+                    <label for="message">Message: </label>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Write your message..."></textarea>
+                </div>
+            </form>
         </section>
     </main>
 
