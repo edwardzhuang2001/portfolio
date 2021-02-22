@@ -1,7 +1,20 @@
 body {
-    margin: 0px;
-    padding: 0px;
-    /* background: linear-gradient(45deg, #ffff97, #ffd5ed); */
-    background: linear-gradient(45deg, LightGoldenrodYellow, LightCyan);
     color: black;
+}
+
+.skill-container {
+    display: flex;
+}
+
+section:nth-of-type(2n+3) {
+    background: linear-gradient(45deg, MistyRose, LemonChiffon);
+}
+
+section:nth-of-type(2n) {
+    background: linear-gradient(45deg, LightGoldenrodYellow, LightCyan);
+}
+
+.hero {
+    background-image: url("https://images.unsplash.com/photo-1533417457911-4ec911485388?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80");
+    background-size: cover;
 }
