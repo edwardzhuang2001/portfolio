@@ -2,8 +2,16 @@ body {
     color: black;
 }
 
-.skill-container {
-    display: flex;
+.dev {
+    font-family: Source Code Pro;
+}
+
+h2 {
+
+}
+
+section {
+    
 }
 
 section:nth-of-type(odd) {
@@ -11,5 +19,19 @@ section:nth-of-type(odd) {
 }
 
 section:nth-of-type(even) {
-    background: linear-gradient(45deg, LightGoldenrodYellow, LightCyan);
+    background: linear-gradient(45deg, LightGoldenrodYellow, LightCyan) 100%;
+}
+
+i {
+    color: black;
+}
+
+.skill-container {
+    display: flex;
+}
+
+#portrait {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
 }
