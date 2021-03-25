@@ -6,6 +6,10 @@ body {
     font-family: Source Code Pro;
 }
 
+.cursive {
+    font-family: Caveat;
+}
+
 h2 {
 
 }
@@ -27,6 +31,10 @@ i {
 }
 
 .skill-container {
+    display: flex;
+}
+
+.hero {
     display: flex;
 }
 
