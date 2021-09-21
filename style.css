@@ -39,10 +39,8 @@ nav {
 }
 
 .nav-menu {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    padding-left: 40px;
+    /* list-style: none; */
+    padding-left: 2rem;
 }
 
 .nav-item {
@@ -118,7 +116,7 @@ h1 {
 
 .content-section {
     background-color: rgb(229, 193, 170);
-    padding: 3rem 10rem;
+    padding: 2rem 10rem;
 }
 
 h2 {
@@ -129,10 +127,22 @@ h2 {
     text-align: center;
 }
 
-main p {
+h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+}
+
+p {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
     font-size: 24px;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
 }
 
 /* about */
@@ -177,6 +187,15 @@ main p {
 }
 
 /* experience */
+
+.experience-container {
+    display: flex;
+}
+
+.experience-header {
+    display: flex;
+    justify-content: space-between;
+}
 
 /* projects */
 
