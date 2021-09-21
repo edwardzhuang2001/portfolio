@@ -1,46 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <!-- boilerplate -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Edward Zhuang // Software Engineer</title>
 
-<head>
-    <!-- boilerplate -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Edward Zhuang // Software Engineer</title>
+        <!-- css -->
+        <link rel="stylesheet" href="style.css">
 
-    <!-- bootstrap css -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <!-- font awesome -->
+        <script src="https://kit.fontawesome.com/b8d26b3dd3.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!-- header -->
+        <header>
 
-    <!-- google fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Caveat&family=Open+Sans&family=Source+Code+Pro:wght@500&family=Source+Sans+Pro:wght@600&display=swap"
-        rel="stylesheet">
-
-    <!-- main css -->
-    <link rel="stylesheet" href="style.css">
-
-    <!-- font awesome -->
-    <script src="https://kit.fontawesome.com/b8d26b3dd3.js" crossorigin="anonymous"></script>
-</head>
-
-<body>
-    <!-- header start -->
-
-    <header>
-        <!-- navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">
-                <span class="dev">&lt;dev&gt;</span>
-                <span class="cursive">edwardzhuang2001</span>
-                <span class=" dev">&lt;/dev&gt;</span>
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
+            <!-- navbar -->
+            <nav>
+                <ul class="nav-menu">
                     <li class="nav-item">
                         <a class="nav-link" href="#about">About</a>
                     </li>
@@ -54,189 +33,127 @@
                         <a class="nav-link" href="#projects">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact Me</a>
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
-            </div>
-        </nav>
+            </nav>
 
-    </header>
+            <!-- hero -->
+            <section class="hero">
+                <div class="hero-text">
+                    <h1>Hi, I'm Edward,</h1>
+                    <p class="slogan">a Software Engineer.</p>
+                </div>
 
-    <!-- header end
-    <!-- main start -->
+                <div class="hero-buttons">
+                    <a href="mailto:zhuange@mcmaster.ca" target="_blank" rel="noreferrer">
+                        <i class="hero-button fas fa-envelope-open-text"></i>
+                    </a>
+                    <a href="../assets/resume.pdf" target="_blank" rel="noreferrer">
+                        <i class="hero-button fas fa-file-invoice"></i>
+                    </a>
+                    <a href="https://github.com/edwardzhuang2001" target="_blank" rel="noreferrer">
+                        <i class="hero-button fab fa-github-square"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/edwardzhuang2001/" target="_blank" rel="noreferrer">
+                        <i class="hero-button fab fa-linkedin"></i>
+                    </a>
+                </div>
+            </section>
+        </header>
 
-    <main class="container-fluid">
-        <!-- hero start -->
+        <!-- main -->
+        <main>
 
-        <section class="hero">
-            <h1 class="display-1">Hi, I'm Edward.</h1>
-            <h4>Nice to meet you!</h4>
-            <div class="links">
-                <ul>
-                    <a href="https://www.linkedin.com/in/edwardzhuang2001/">
-                        <i class="fab fa-linkedin"></i></a>
-                    <a href="https://github.com/edwardzhuang2001">
-                        <i class="fab fa-github-square"></i></a>
-                    <a href="resume.pdf" target="_blank">
-                        <i class="fas fa-file"></i></a>
-                    <a href="mailto:zhuange@mcmaster.ca">
-                        <i class="fas fa-envelope"></i></a>
-                </ul>
-            </div>
-            <img src="img/portrait.png" id="portrait" alt="A circular image of my portrait.">
-        </section>
+            <!-- about -->
+            <section id="about">
+                <h2>About Me</h2>
 
-        <!-- hero end -->
-        <!-- about start -->
-
-        <section class="about" id="about">
-            <h2>About Me</h2>
-            <p>I’m Edward, a second-year Software Engineering student at McMaster University. As a self-motivated
-                learner, I became interested in software in Grade 8 when I stumbled upon a YouTube channel that made
-                video tutorials teaching beginners how to program. I began learning the basics of HTML and Java online,
-                before I took my first computer science course in Grade 9. My continued passion for tech led me to where
-                I am today.
-            </p>
-            <p>I am <strong>currently seeking an internship/co-op for the Summer 2021 term</strong>, for an opportunity
-                to develop my skillset in the professional world. I'm interested in Web Development and Software
-                Development, and I'm constantly looking to learn new things in tech.
-            </p>
-            <p>Some of my hobbies include discovering and listening to music, playing video games with my friends,
-                keeping up with esports and the NBA, and bingeing movies or shows. Recently, I’ve also been getting into
-                running, and I’m aspiring to be able to run a half-marathon by 2022.
-            </p>
-        </section>
-
-        <!-- about end -->
-        <!-- skills start -->
-
-        <section class="skills" id="skills">
-            <h2>Skills</h2>
-            <div class="container skill-container">
-                <div class="row">
-                    <div class="col skill-group">
-                        <p>
-                            <i class="fab fa-html5 fa-2x"></i>
-                        </p>
-                        <h3>HTML</h3>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Hi, I'm Edward, a third-year Software Engineering student at McMaster University. I expect to graduate in April 2024. I'm an enthusiastic self-motivated learner who is passionate about technology and its countless applications.</p>
+                        <p>I became interested in software .</p>
+                        <p><strong>I am currently seeking a four-month internship for Summer 2022</strong> to continue developing my skillset (both technical and non-technical) in the professional world. My main interests lie in Full Stack Development and Data.</p>
+                        <p>If you see me, you will most likely catch me listening to music. I can hold very long discussions about my all-time favourite artists as well as new music I’m listening to. I also love competition, which leads me to enjoy sports and esports alike (with a background in gaming). Running has recently become a big hobby for me, and I aspire to run my first half marathon by early 2022. I love to make new friends, so feel free to reach out about anything!</p>
                     </div>
-                    <div class="col skill-group">
+                    <img class="portrait" src="../assets/portrait.png" alt="Edward Zhuang portrait" />
+                </div>
+            </section>
+
+            <!-- skills -->
+            <section id="skills">
+                <h2>Skills</h2>
+                <div class="skills-container">
+                    <div class="skill">
                         <p>
-                            <i class="fab fa-css3-alt fa-2x"></i>
+                            <i class="fab fa-java"></i>
                         </p>
-                        <h3>CSS</h3>
+                        <p>Java</p>
                     </div>
-                    <div class="col skill-group">
+                    <div class="skill">
                         <p>
-                            <i class="fab fa-js-square fa-2x"></i>
+                            <i class="fab fa-python"></i>
                         </p>
-                        <h3>JavaScript</h3>
+                        <p>Python</p>
                     </div>
-                    <div class="col skill-group">
+                    <div class="skill">
                         <p>
-                            <i class="fab fa-bootstrap fa-2x"></i>
+                            <i class="fab fa-html5"></i>
                         </p>
-                        <h3>Bootstrap</h3>
+                        <p>HTML</p>
+                    </div>
+                    <div class="skill">
+                        <p>
+                            <i class="fab fa-css3-alt"></i>
+                        </p>
+                        <p>CSS</p>
+                    </div>
+                    <div class="skill">
+                        <p>
+                            <i class="fab fa-js-square"></i>
+                        </p>
+                        <p>JavaScript</p>
+                    </div>
+                    <div class="skill">
+                        <p>
+                            <i class="fab fa-node"></i>
+                        </p>
+                        <p>Node.js</p>
+                    </div>
+                    <div class="skill">
+                        <p>
+                            <i class="fab fa-react"></i>
+                        </p>
+                        <p>React</p>
+                    </div>
+                    <div class="skill">
+                        <p>
+                            <i class="fab fa-git-alt"></i>
+                        </p>
+                        <p>Git</p>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col skill-group">
-                        <p>
-                            <i class="fab fa-java fa-2x"></i>
-                        </p>
-                        <h3>Java</h3>
-                    </div>
-                    <div class="col skill-group">
-                        <p>
-                            <i class="fab fa-python fa-2x"></i>
-                        </p>
-                        <h3>Python</h3>
-                    </div>
-                    <div class="col skill-group">
-                        <p>
-                            <i class="fab fa-git-alt fa-2x"></i>
-                        </p>
-                        <h3>Git</h3>
-                    </div>
-                    <div class="col skill-group">
-                        <p>
-                            <i class="fas fa-terminal fa-2x"></i>
-                        </p>
-                        <h3>Shell Programming</h3>
-                    </div>
+            </section>
+
+            <!-- experience -->
+            <section id="experience">
+                <h2>Experience</h2>
+                <div class="experience-container">
+                    
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <!-- skills end -->
-        <!-- experience start -->
+            <!-- projects -->
+            <section id="projects">
+                <h2>Projects</h2>
 
-        <section class="experience" id="experience">
-            <h2>Experience</h2>
-            <div class="experience-group">
-                <img src="img/ieee_logo.png" alt="The IEEE McMaster Student Branch logo.">
-                <h3>IEEE McMaster Student Branch Computer Chapter — Secretary</h3>
-                <p>In my past year as a member of the IEEE McMaster Student Branch Computer Chapter, I helped lead
-                    various software-related workshops. For the upcoming 2021-2022 school year, I will joining the
-                    executive team as Secretary of the Computer Chapter, where it will be my job to plan and organize
-                    technical workshops for McMaster students. With the 2020-2021 school year being virtual due to
-                    COVID-19, we could not host any in-person events. I am hoping that next year, I can prepare more
-                    workshops that cover a broader range of interesting technologies with the possibility that in-person
-                    activities will be safe.</p>
-            </div>
-        </section>
+            </section>
 
-        <!-- experience end  -->
-        <!-- projects start -->
+            <!-- contact -->
+            <section id="contact">
+                <h2>Contact Me</h2>
 
-        <section class="projects" id="projects">
-            <h2>Projects</h2>
-        </section>
-
-        <!-- projects end -->
-        <!-- contact me start -->
-
-        <section class="contact" id="contact">
-            <h2>Contact Me</h2>
-            <form>
-                <div>
-                    <label for="name"></label>
-                    <input type="text" id="name" placeholder="Name:">
-                </div>
-                <div>
-                    <label for="email"></label>
-                    <input type="email" id="email" placeholder="Email:">
-                </div>
-                <div>
-                    <label for="subject"></label>
-                    <input type="text" id="subject" placeholder="Subject:">
-                </div>
-                <div>
-                    <label for="message"></label>
-                    <textarea name="message" id="message" cols="30" rows="10"
-                        placeholder="Write your message..."></textarea>
-                </div>
-            </form>
-        </section>
-
-        <!-- contact me end -->
-    </main>
-
-    <!-- main end -->
-    <!-- footer start -->
-
-    <footer>
-        <!-- make year stamp dynamically rendered in JS -->
-        <!-- add a "last edited" date part -->
-        <small>Created by Edward Zhuang &copy; 2021</small>
-    </footer>
-
-    <!-- footer end -->
-
-    <!-- bootstrap js -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
-        crossorigin="anonymous"></script>
-</body>
-
+            </section>
+        </main>
+    </body>
 </html>

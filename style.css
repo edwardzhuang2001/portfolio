@@ -1,45 +1,180 @@
-body {
-    color: black;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-.dev {
-    font-family: Source Code Pro;
+html {
+    scroll-behavior: smooth;
 }
 
-.cursive {
-    font-family: Caveat;
+body::-webkit-scrollbar {
+    width: 0.7rem;
+    background-color: rgb(83, 86, 85);
 }
 
-h2 {
-
+body::-webkit-scrollbar-thumb {
+    background: rgb(170, 170, 170);
 }
 
-section {
-    
+header {
+    background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.175) 0%, rgba(0,212,255,0.175) 100%), url('../assets/hero.jpg');
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
 }
 
-section:nth-of-type(odd) {
-    background: linear-gradient(45deg, MistyRose, LemonChiffon);
-}
-
-section:nth-of-type(even) {
-    background: linear-gradient(45deg, LightGoldenrodYellow, LightCyan) 100%;
-}
-
-i {
-    color: black;
-}
-
-.skill-container {
+nav {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8vh;
+    padding: 0;
+}
+
+.nav-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 40px;
+}
+
+.nav-item {
+    display: inline-block;
+    padding: 0 25px;
+}
+
+.nav-link {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    position: relative;
+}
+
+.nav-link::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 0.1rem;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    transform: scaleX(0);
+    transition: transform 0.4s ease;
+}
+
+.nav-link:hover::before {
+    transform: scaleX(1);
 }
 
 .hero {
+    height: 92vh;
+    text-align: right;
+}
+
+.hero-text {
+    padding: 25px 70px 25px 25px;
+}
+
+h1 {
+    padding-bottom: 25px;
+    font-weight: 300;
+    font-size: 64px;
+}
+
+.slogan {
+    padding-top: 25px;
+    font-weight: 300; /* not working RN */
+    font-size: 36px;
+}
+
+.hero-buttons {
+    padding-right: 40px;
+}
+
+.hero-buttons a {
+    float: right;
+    margin: 40px;
+}
+
+i {
+    font-size: 50px;
+    color: black;
+    transition: all 0.4s ease;
+}
+
+i:hover {
+    color: rgb(229, 193, 170);
+}
+
+main section {
+    background-color: rgb(229, 193, 170);
+    padding: 3rem 10rem;
+}
+
+h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    padding-bottom: 3rem;
+    text-align: center;
+}
+
+main p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+#about {
+    background-color: rgb(229, 193, 170);
+}
+
+.about-content {
     display: flex;
 }
 
-#portrait {
-    width: 250px;
-    height: 250px;
+.about-text {
+    /* max-width: 800px; */
+    padding-right: 3rem;
+}
+
+.portrait {
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
+    align-self: center;
+}
+
+#skills {
+
+}
+
+.skills-container {
+    display: grid;
+    /* max-width: 800px; */
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+    justify-items: center;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#experience {
+
+}
+
+#projects {
+
+}
+
+#contact {
+
 }
