@@ -235,7 +235,7 @@ header.dark {
     color: rgb(121, 100, 88);
 }
 
-.content-section {
+.content-section.dark {
     background-color: rgb(102, 93, 93);
     color: rgb(255,255,255);
 }

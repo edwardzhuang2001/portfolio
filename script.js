@@ -16,6 +16,7 @@ function toggleMode() {
     var header = document.getElementsByTagName("header")[0];
     var nav = Array.from(document.getElementsByClassName("nav-link"));
     var heroButtons = Array.from(document.getElementsByClassName("hero-button"));
+    var contentSections = Array.from(document.getElementsByClassName("content-section"));
 
     darkElements.push(header);
     nav.forEach((navLink) => {
@@ -23,6 +24,9 @@ function toggleMode() {
     });
     heroButtons.forEach((heroButton) => {
         darkElements.push(heroButton);
+    });
+    contentSections.forEach((contentSection) => {
+        darkElements.push(contentSection);
     });
 
     darkElements.forEach((element) => {
