@@ -171,6 +171,10 @@ p {
     padding-left: 5rem;
 }
 
+.about-text p {
+    padding: 1rem;
+}
+
 /* skills */
 
 .skills-container {
