@@ -17,6 +17,8 @@ function toggleMode() {
     var nav = Array.from(document.getElementsByClassName("nav-link"));
     var heroButtons = Array.from(document.getElementsByClassName("hero-button"));
     var contentSections = Array.from(document.getElementsByClassName("content-section"));
+    var portrait = document.getElementsByClassName("portrait")[0];
+    var skills = Array.from(document.getElementsByClassName("skill-icon"));
 
     darkElements.push(header);
     nav.forEach((navLink) => {
@@ -27,6 +29,10 @@ function toggleMode() {
     });
     contentSections.forEach((contentSection) => {
         darkElements.push(contentSection);
+    });
+    darkElements.push(portrait);
+    skills.forEach((skill) => {
+        darkElements.push(skill);
     });
 
     darkElements.forEach((element) => {
