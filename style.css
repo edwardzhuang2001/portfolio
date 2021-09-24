@@ -124,7 +124,7 @@ h1 {
 
 .content-section {
     background-color: rgb(229, 193, 170);
-    padding: 2rem 16rem;
+    padding: 2rem 14rem;
 }
 
 h2 {
@@ -138,7 +138,7 @@ h2 {
 h3 {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 20px;
     text-align: center;
 }
 
@@ -197,7 +197,7 @@ p {
 
 /* experience */
 
-.experience-container {
+.experience {
     display: flex;
     margin: 1rem;
 }
@@ -213,9 +213,23 @@ p {
 
 /* projects */
 
+.projects-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+.projects-container .logo {
+    border-radius: 50%;
+}
+
 /* contact */
 
 /* footer */
+
+footer {
+    text-align: center;
+}
 
 /* --------------------------- */
 /* dark mode */
