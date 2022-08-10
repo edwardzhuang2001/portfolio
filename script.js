@@ -10,6 +10,14 @@
 //     console.log(count);
 // });
 
+// sticky navbar
+// style mode toggler
+// animated background
+// format contact and projects
+// dynamic timestamp
+// responsive
+// padding vs. margin
+
 function toggleMode() {
     var darkElements = [];
 

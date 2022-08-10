@@ -131,12 +131,14 @@ h1 {
 
 .content-section {
     background-color: rgb(229, 193, 170);
-    padding: 2rem 16rem;
+    padding: 2rem;
+    padding-left: 16rem;
+    padding-right: 16rem;
 }
 
 h2 {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
     font-size: 36px;
     padding-bottom: 3rem;
     text-align: center;
@@ -165,11 +167,12 @@ p {
 
 .about-content {
     display: flex;
+    /* max-width: 60%; */
 }
 
 .portrait {
-    width: 400px;
-    height: 400px;
+    width: 45%;
+    height: 45%;
     border-radius: 20%;
     align-self: center;
 }
