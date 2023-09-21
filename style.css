@@ -256,19 +256,19 @@ footer {
 
 header.dark {
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 20%, rgba(0, 11, 49, 0.75) 100%), url('../assets/hero.jpg');
-    color: rgb(115, 165, 164);
+    color: rgb(225, 206, 108);
 }
 
 .nav-link.dark {
-    color: rgb(115, 165, 164);
+    color: rgb(225, 206, 108);
 }
 
 .nav-link.dark::before {
-    background-color: rgb(115, 165, 164);
+    background-color: rgb(225, 206, 108);
 }
 
 .hero-button.dark {
-    color: rgb(115, 165, 164);
+    color: rgb(225, 206, 108);
 }
 
 .hero-button.dark:hover {
@@ -276,8 +276,8 @@ header.dark {
 }
 
 .content-section.dark {
-    background-color: rgb(25, 43, 70);
-    color: rgb(115, 165, 164);
+    background-color: rgb(51, 51, 51);
+    color: rgb(225, 206, 108);
 }
 
 .portrait.dark {
@@ -285,5 +285,5 @@ header.dark {
 }
 
 .skill-icon.dark {
-    color: rgb(115, 165, 164);
+    color: rgb(225, 206, 108);
 }
