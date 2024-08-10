@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.6c8eef5f.css",
+    "main.js": "/portfolio/static/js/main.a48ccef5.js",
+    "static/media/hero.jpg": "/portfolio/static/media/hero.7aa3e9b26eca441471dd.jpg",
+    "static/media/portrait.png": "/portfolio/static/media/portrait.14c5a9a81a787179132d.png",
+    "static/media/national_bank_of_canada.png": "/portfolio/static/media/national_bank_of_canada.a4e39938a16bc61a1dd0.png",
+    "static/media/resume.pdf": "/portfolio/static/media/resume.8186daf7bc462b7da319.pdf",
+    "static/media/ontario_ministry_of_education.png": "/portfolio/static/media/ontario_ministry_of_education.4f958f87efddee04719b.png",
+    "static/media/hadoop.svg": "/portfolio/static/media/hadoop.0a098738e19b397381cfa7819d7df57c.svg",
+    "static/media/flask.svg": "/portfolio/static/media/flask.611b5611428e497086bc821da6f8511c.svg",
+    "static/media/rbc.png": "/portfolio/static/media/rbc.956863872c9787af537c.png",
+    "static/media/postgresql.svg": "/portfolio/static/media/postgresql.ae92b576b8ea41666538c0756df27969.svg",
+    "static/media/spark.svg": "/portfolio/static/media/spark.3ca1250249c11b0de6f52d2ed753c498.svg",
+    "static/media/java.svg": "/portfolio/static/media/java.a351f739f47fda7a637b86ffa530d56a.svg",
+    "static/media/aws.svg": "/portfolio/static/media/aws.1baaa078f947505c36dc8ee7595f91da.svg",
+    "static/media/react.svg": "/portfolio/static/media/react.e68b35f4774979ae220b1d5d7b345b00.svg",
+    "static/media/nodejs.svg": "/portfolio/static/media/nodejs.615ffbea9529ca7047ed8a912bfd94b2.svg",
+    "static/media/kafka.svg": "/portfolio/static/media/kafka.31b4a8cc6be07b6c2a85a57f036d0434.svg",
+    "static/media/python.svg": "/portfolio/static/media/python.e6d7dc739a91892bbf1f6262412046dd.svg",
+    "static/media/javascript.svg": "/portfolio/static/media/javascript.00f3e5cf8bcf4ae623b3835ca5791b15.svg",
+    "static/media/git.svg": "/portfolio/static/media/git.c60b7e5ae8ec2562f23fdddcab300026.svg",
+    "static/media/spring_boot.svg": "/portfolio/static/media/spring_boot.b701f1fccafd97e059e99fbcac91d203.svg",
+    "static/media/numpy.svg": "/portfolio/static/media/numpy.208e250c6332c7bd55413a95080d228f.svg",
+    "index.html": "/portfolio/index.html",
+    "static/media/css.svg": "/portfolio/static/media/css.4e47c3122b8d2476a02f97dcfcb28640.svg",
+    "static/media/html.svg": "/portfolio/static/media/html.f318c8b1d5945fa9adc827ae94849cb1.svg",
+    "static/media/pandas.svg": "/portfolio/static/media/pandas.b6ed8692593d49a0abce10c2a7772ed1.svg",
+    "main.6c8eef5f.css.map": "/portfolio/static/css/main.6c8eef5f.css.map",
+    "main.a48ccef5.js.map": "/portfolio/static/js/main.a48ccef5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6c8eef5f.css",
+    "static/js/main.a48ccef5.js"
+  ]
+}
