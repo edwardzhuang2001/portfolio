@@ -84,7 +84,6 @@ nav {
 /* about */
 .about-container {
     display: flex;
-    justify-content: center;
     align-items: center;
     margin: 0 auto;
     max-width: 1000px;
@@ -130,6 +129,8 @@ nav {
 /* experience */
 .experience-item {
     margin-bottom: 2rem;
+    margin: 0 auto;
+    max-width: 1000px;
 }
 
 .experience-header {
@@ -148,19 +149,61 @@ nav {
 
 .experience-body {
     display: flex;
+    align-items: center;
     margin: 0.5rem;
 }
 
 .experience-logo {
-    width: 125px;
-    height: 125px;
+    width: 150px;
+    height: 150px;
 }
 
 .experience-text {
-    padding-left: 2rem;
+    padding-left: 3rem;
 }
 
-/* footer */
-footer {
+/* contact */
+.form-container {
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+/* .form-group {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+} */
+
+input, textarea {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 0.1rem 0.2rem;
+    resize: none;
+}
+
+.error-message {
+    font-size: 16px;
+    color: rgb(241, 5, 5);
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.submit-button {
+    border-radius: 6px;
+    padding: 0.1rem 0.2rem;
+}
+
+/* copyright */
+.copyright {
     text-align: center;
 }

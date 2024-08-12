@@ -41,8 +41,8 @@ function Experience() {
         date="May 2021 &ndash; September 2021"
         logo={ontarioMinistryOfEducationLogo}
         descriptions={[
-          "Streamlined structure creation process for the new Ontario curriculum website by developing a JavaScript script with Node.js and leveraging the Kentico Kontent API, speeding up the process by 95%",
-          "Expanded the Ontario curriculum website by using Kentico CMS to convert PDF documents into web pages",
+          "Streamlined structure creation process for the new Ontario curriculum website by producing a JavaScript script with Node.js and leveraging the Kentico Kontent API, speeding up the process by 95%",
+          "Expanded the Ontario curriculum website by using Kentico CMS to publish curricula, originally formatted as PDFs, overall enhancing the user experience",
           "Designed the Curriculum and Resources help page and additional help resources to assist users with difficulty navigating the site",
         ]}
       />

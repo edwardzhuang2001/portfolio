@@ -7,7 +7,7 @@ import About from './components/About';
 import Skills from './components/Skills/Skills';
 import Experience from './components/Experience/Experience';
 // import Projects from './components/Projects/Projects';
-// import Contact from './components/Contact/Contact';
+import Contact from './components/Contact/Contact';
 import Copyright from './components/Copyright';
 
 function App() {
@@ -23,9 +23,10 @@ function App() {
           <Skills />
           <Experience />
           {/* <Projects /> */}
-          {/* <Contact /> */}
+          {/* <Certificates /> */}
         </main>
         <footer>
+          <Contact />
           <Copyright />
         </footer>
       </div>
