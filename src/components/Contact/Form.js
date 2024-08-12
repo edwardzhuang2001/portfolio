@@ -1,13 +1,27 @@
 import React from 'react';
 import '../../App.css';
 import { useForm } from 'react-hook-form';
+import emailjs from '@emailjs/browser';
 
 function Form() {
   const { register, handleSubmit, formState: { errors } } = useForm();
 
   const onSubmit = (data) => {
-    console.log(data);
-    alert("Message sent.");
+    emailjs.send(
+      process.env.REACT_APP_EMAILJS_SERVICE_ID,
+      process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+      {
+        from_name: data.name,
+        from_email: data.email,
+        message: data.message,
+      },
+      process.env.REACT_APP_EMAILJS_PUBLIC_KEY
+    )
+    .then(() => {
+      alert("Message sent!");
+    }, () => {
+      alert("An error occurred. Please try again later.");
+    });
   }
 
   return (
