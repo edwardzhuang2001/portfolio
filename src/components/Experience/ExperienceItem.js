@@ -9,7 +9,7 @@ function ExperienceItem({ title, company, team, date, logo, descriptions }) {
           <h3 className="title">{title} |</h3>
           <h4 className="company">{company}, {team}</h4>
         </div>
-        <h4>{date}</h4>
+        <h4><i>{date}</i></h4>
       </div>
       <div className="experience-body">
         <img className="experience-logo" src={logo} alt={`Logo of ${company}`} />
