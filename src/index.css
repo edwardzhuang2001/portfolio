@@ -85,15 +85,15 @@ p {
     padding: 0.1rem 0;
 }
 
-a {
+button {
+    background-color: var(--secondary-color);
+    padding: 0.1rem 0.25rem;
+}
+
+button > a {
     font-family: var(--secondary-font);
     font-weight: 400;
     font-size: 18px;
     color: var(--text-color);
     padding: 0.1rem 0;
-}
-
-button {
-    background-color: var(--secondary-color);
-    padding: 0.1rem 0.25rem;
 }
