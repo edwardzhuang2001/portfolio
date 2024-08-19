@@ -1,7 +1,8 @@
 import React from 'react';
 import '../../App.css';
+import Tag from '../Miscellaneous/Tag';
 
-function ExperienceItem({ title, company, team, date, logo, descriptions }) {
+function ExperienceItem({ title, company, team, date, logo, descriptions, stack }) {
   return (
     <div className="experience-item">
       <div className="experience-header">
@@ -13,7 +14,7 @@ function ExperienceItem({ title, company, team, date, logo, descriptions }) {
       </div>
       <div className="experience-body">
         <img className="experience-logo" src={logo} alt={`Logo of ${company}`} />
-        <ul className="experience-text">
+        <ul className="experience-description">
           {descriptions.map((description, index) => (
             <li key={index}><p>{description}</p></li>
           ))}

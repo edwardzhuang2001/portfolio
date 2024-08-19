@@ -6,4 +6,4 @@ export {
   nbcLogo,
   ontarioMinistryOfEducationLogo,
   rbcLogo,
-}
+};

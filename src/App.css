@@ -19,7 +19,6 @@ nav {
 
 .nav-link {
     font-size: 20px;
-    color: black;
     text-decoration: none;
     position: relative;
     cursor: pointer;
@@ -33,7 +32,7 @@ nav {
     height: 0.1rem;
     bottom: 0;
     left: 0;
-    background-color: black;
+    background-color: var(--text-color);
     transform: scaleX(0);
     transition: transform 0.4s ease;
 }
@@ -78,7 +77,7 @@ nav {
 }
 
 .hero-button:hover {
-    color: rgb(229, 193, 170);
+    color: var(--background-color);
 }
 
 /* about */
@@ -151,6 +150,7 @@ nav {
     display: flex;
     align-items: center;
     margin: 0.5rem;
+    padding-bottom: 2rem;
 }
 
 .experience-logo {
@@ -158,8 +158,45 @@ nav {
     height: 150px;
 }
 
-.experience-text {
+.experience-description {
     padding-left: 3rem;
+}
+
+/* projects */
+.projects-container {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+
+.project-card {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--tertiary-color);
+    border: 2px solid var(--text-color);
+    border-radius: var(--border-radius);
+    padding: 25px;
+    margin: 25px auto;
+    max-width: 450px;
+}
+
+.project-logo {
+    width: 150px;
+    height: 150px;
+    margin-right: 1rem;
+}
+
+.project-body {
+    text-align: center;
+}
+
+.link-button {
+    margin: 1rem;
+}
+
+.project-stack {
+    max-width: 180px;
 }
 
 /* contact */
@@ -181,16 +218,16 @@ nav {
 } */
 
 input, textarea {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: var(--secondary-font);
     font-weight: 400;
     font-size: 16px;
-    padding: 0.1rem 0.2rem;
+    padding: 0.1rem 0.25rem;
     resize: none;
 }
 
 .error-message {
     font-size: 16px;
-    color: rgb(241, 5, 5);
+    color: var(--primary-color);
 }
 
 .button-container {
@@ -198,11 +235,20 @@ input, textarea {
     justify-content: center;
 }
 
-.submit-button {
-    padding: 0.1rem 0.2rem;
-}
-
 /* copyright */
 .copyright {
+    text-align: center;
+}
+
+/* miscellaneous */
+.tag {
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: var(--border-radius);
+    margin: 5px;
+    font-weight: bold;
     text-align: center;
 }

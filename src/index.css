@@ -2,6 +2,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
 
 /* general */
+:root {
+    --primary-font: 'Open Sans', sans-serif;
+    --secondary-font: 'Source Sans Pro', sans-serif;
+    --text-color: #000000;
+    --primary-color: #D90429;
+    --secondary-color: #D5C112;
+    --tertiary-color: #454081CC;
+    --background-color: #EDF2F4;
+    --border-radius: 5px;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -14,57 +25,75 @@ html {
 
 body::-webkit-scrollbar {
     width: 0.7rem;
-    background-color: rgb(83, 86, 85);
+    background-color: #535655;
 }
 
 body::-webkit-scrollbar-thumb {
-    background: rgb(170, 170, 170);
+    background: #AAAAAA;
 }
 
 header {
     background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.175) 0%, rgba(0, 212, 255, 0.175) 100%), url('./assets/hero.jpg');
     background-size: cover;
-    font-family: 'Open Sans', sans-serif;
+    font-family: var(--primary-font);
 }
 
 section {
-    background-color: rgb(230, 230, 230);
+    background-color: var(--background-color);
     padding: 2rem;
     padding-left: 16rem;
     padding-right: 16rem;
 }
 
 h1 {
-    padding-bottom: 25px;
     font-weight: 300;
     font-size: 64px;
+    color: var(--text-color);
+    padding-bottom: 25px;
 }
 
 h2 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: var(--primary-font);
     font-weight: 400;
     font-size: 36px;
+    color: var(--text-color);
     padding-bottom: 3rem;
     text-align: center;
 }
 
 h3 {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: var(--secondary-font);
     font-weight: 600;
     font-size: 20px;
+    color: var(--text-color);
     text-align: center;
 }
 
 h4 {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: var(--secondary-font);
     font-weight: 400;
     font-size: 20px;
+    color: var(--text-color);
     text-align: center;
 }
 
 p {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: var(--secondary-font);
     font-weight: 400;
     font-size: 18px;
+    color: var(--text-color);
     padding: 0.1rem 0;
+}
+
+a {
+    font-family: var(--secondary-font);
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--text-color);
+    padding: 0.1rem 0;
+}
+
+button {
+    background-color: var(--secondary-color);
+    padding: 0.1rem 0.25rem;
 }

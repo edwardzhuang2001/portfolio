@@ -6,7 +6,7 @@ import Hero from './components/Hero';
 import About from './components/About';
 import Skills from './components/Skills/Skills';
 import Experience from './components/Experience/Experience';
-// import Projects from './components/Projects/Projects';
+import Projects from './components/Projects/Projects';
 import Contact from './components/Contact/Contact';
 import Copyright from './components/Copyright';
 
@@ -22,7 +22,7 @@ function App() {
           <About />
           <Skills />
           <Experience />
-          {/* <Projects /> */}
+          <Projects />
           {/* <Certificates /> */}
         </main>
         <footer>
