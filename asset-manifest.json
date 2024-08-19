@@ -1,12 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.beb5c70e.css",
-    "main.js": "/portfolio/static/js/main.ce6269b9.js",
+    "main.css": "/portfolio/static/css/main.0b307e1e.css",
+    "main.js": "/portfolio/static/js/main.9fc18084.js",
+    "static/media/probo.png": "/portfolio/static/media/probo.593ec1215fa2f46c8067.png",
     "static/media/hero.jpg": "/portfolio/static/media/hero.7aa3e9b26eca441471dd.jpg",
     "static/media/portrait.png": "/portfolio/static/media/portrait.14c5a9a81a787179132d.png",
+    "static/media/rift_herald.png": "/portfolio/static/media/rift_herald.cfeae991b2f44b4b2f23.png",
     "static/media/national_bank_of_canada.png": "/portfolio/static/media/national_bank_of_canada.a4e39938a16bc61a1dd0.png",
+    "static/media/bench_spot.png": "/portfolio/static/media/bench_spot.e0c528be216447302f8c.png",
     "static/media/resume.pdf": "/portfolio/static/media/resume.8186daf7bc462b7da319.pdf",
+    "static/media/portfolio.png": "/portfolio/static/media/portfolio.b7b0c3dfd359646cdad3.png",
     "static/media/ontario_ministry_of_education.png": "/portfolio/static/media/ontario_ministry_of_education.4f958f87efddee04719b.png",
+    "static/media/aslingo.png": "/portfolio/static/media/aslingo.a02da9343e801d5a4dbe.png",
     "static/media/hadoop.svg": "/portfolio/static/media/hadoop.0a098738e19b397381cfa7819d7df57c.svg",
     "static/media/flask.svg": "/portfolio/static/media/flask.611b5611428e497086bc821da6f8511c.svg",
     "static/media/rbc.png": "/portfolio/static/media/rbc.956863872c9787af537c.png",
@@ -26,11 +31,11 @@
     "static/media/css.svg": "/portfolio/static/media/css.4e47c3122b8d2476a02f97dcfcb28640.svg",
     "static/media/html.svg": "/portfolio/static/media/html.f318c8b1d5945fa9adc827ae94849cb1.svg",
     "static/media/pandas.svg": "/portfolio/static/media/pandas.b6ed8692593d49a0abce10c2a7772ed1.svg",
-    "main.beb5c70e.css.map": "/portfolio/static/css/main.beb5c70e.css.map",
-    "main.ce6269b9.js.map": "/portfolio/static/js/main.ce6269b9.js.map"
+    "main.0b307e1e.css.map": "/portfolio/static/css/main.0b307e1e.css.map",
+    "main.9fc18084.js.map": "/portfolio/static/js/main.9fc18084.js.map"
   },
   "entrypoints": [
-    "static/css/main.beb5c70e.css",
-    "static/js/main.ce6269b9.js"
+    "static/css/main.0b307e1e.css",
+    "static/js/main.9fc18084.js"
   ]
 }
